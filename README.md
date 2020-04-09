@@ -1,0 +1,2 @@
+# xonbotkushnik
+bot
