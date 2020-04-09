@@ -61,7 +61,7 @@ def timed_job():
 
 @sched.scheduled_job('interval', minutes=1)
 def awake_bot():
-    r = requests.get("https://xonbotkushnik.herokuapp.com/")
+    r = requests.get("https://kushnikbot.herokuapp.com/")
     if r.status_code == 200:
         print("Bot is awake")
 
